@@ -45,12 +45,12 @@ class LoginController extends AbstractActionController
                     $messages = "username or password is incorrect";
                 }
             }
-	}
+		}
 
         return new ViewModel(array(
             'form' => $form,
             'messages' => $messages,
             'auth' => $isAuth,
         ));
-    }
+	}
 }
