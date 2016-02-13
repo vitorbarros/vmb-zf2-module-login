@@ -5,7 +5,7 @@
 Installation of this module uses composer. For composer documentation, please refer to
 [getcomposer.org](http://getcomposer.org/).
 
-php composer.phar require vitorbarros/vmb-zf2-module-login
+`php composer.phar require vitorbarros/vmb-zf2-module-login`
 
 Then add `DoctrineModule`, `DoctrineORMModule`, `DoctrineDataFixtureModule` and `Login` to your `config/application.config.php` and create directory
 `data/DoctrineORMModule/Proxy` and make sure your application has write access to it.
@@ -13,9 +13,9 @@ Then add `DoctrineModule`, `DoctrineORMModule`, `DoctrineDataFixtureModule` and 
 Installation without composer is not officially supported and requires you to manually install all dependencies
 that are listed in `composer.json`
 
-### Configuration options
+## Configuration options
 
-To create initial data to teste the module, configure database connection. Fallow the exemple
+To create initial data to test the module configure the database connection as following
 
 ```php
 <?php
@@ -37,16 +37,19 @@ return array(
     ),
 );
 ```
-After configuration, run the next command
+## Command Line
+Access the Doctrine command line as following
 
+##Import
 ```sh
 ./vendor/bin/doctrine-module data-fixture:import 
 ```
 
-Access in your browser yourdomain/login
+##Test
+Access in your browser `www.yourdomain/login`
 
 try authenticate with fallowing credentians
 
-username: admin
-password: admin
+`username: admin`
+`password: admin`
 
