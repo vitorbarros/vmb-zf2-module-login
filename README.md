@@ -37,8 +37,10 @@ return array(
     ),
 );
 ```
-After configuration, run the next command
+#### Command Line
+Access the Doctrine command line as following
 
+##Import
 ```sh
 ./vendor/bin/doctrine-module data-fixture:import 
 ```
