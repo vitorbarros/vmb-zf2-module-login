@@ -1,10 +1,10 @@
 <?php
-namespace Login\Auth;
+namespace VMBLogin\Auth;
 
 use Zend\Authentication\Adapter\AdapterInterface,
     Zend\Authentication\Result;
 
-use Login\Entity\User;
+use VMBLogin\Entity\User;
 
 use Doctrine\ORM\EntityManager;
 

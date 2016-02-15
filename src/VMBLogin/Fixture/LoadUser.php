@@ -1,5 +1,5 @@
 <?php
-namespace Login\Fixture;
+namespace VMBLogin\Fixture;
 
 use Doctrine\Common\DataFixtures\AbstractFixture,
     Doctrine\Common\Persistence\ObjectManager,

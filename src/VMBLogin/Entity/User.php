@@ -1,5 +1,5 @@
 <?php
-namespace Login\Entity;
+namespace VMBLogin\Entity;
 
 use Zend\Stdlib\Hydrator,
     Zend\Math\Rand,

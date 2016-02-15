@@ -1,11 +1,11 @@
 <?php
-namespace Login\Controller;
+namespace VMBLogin\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController,
     Zend\View\Model\ViewModel,
     Zend\Authentication\AuthenticationService,
     Zend\Authentication\Storage\Session as SessionStorage;
-use Login\Form\Login as LoginForm;
+use VMBLogin\Form\Login as LoginForm;
 
 class LoginController extends AbstractActionController
 {

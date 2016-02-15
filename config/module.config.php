@@ -1,5 +1,5 @@
 <?php
-namespace Login;
+namespace VMBLogin;
 
 return array(
     'router' => array(
@@ -9,7 +9,7 @@ return array(
                 'options' => array(
                     'route'    => '/login',
                     'defaults' => array(
-                        'controller' => 'Login\Controller\Login',
+                        'controller' => 'VMBLogin\Controller\Login',
                         'action'     => 'login',
                     ),
                 ),
@@ -18,7 +18,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Login\Controller\Login' => 'Login\Controller\LoginController'
+            'VMBLogin\Controller\Login' => 'VMBLogin\Controller\LoginController'
         ),
     ),
     'view_manager' => array(
@@ -29,7 +29,7 @@ return array(
         'exception_template'       => 'error/index',
         'template_map' => array(
             'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
-            'login/index/index'       => __DIR__ . '/../view/login/index/index.phtml',
+            'vmblogin/index/index'       => __DIR__ . '/../view/vmbLogin/index/index.phtml',
             'error/404'               => __DIR__ . '/../view/error/404.phtml',
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ),
@@ -52,6 +52,6 @@ return array(
         ),
     ),
     'data-fixture' => array(
-        'Login_fixture' => __DIR__ . '/../src/Login/Fixture',
+        'Login_fixture' => __DIR__ . '/../src/VMBLogin/Fixture',
     ),
 );

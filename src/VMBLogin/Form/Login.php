@@ -1,5 +1,5 @@
 <?php
-namespace Login\Form;
+namespace VMBLogin\Form;
 
 use Zend\Form\Form;
 
