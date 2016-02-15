@@ -2,6 +2,7 @@
     "name":"vitorbarros/vmb-zf2-module-login",
     "description":"Módulo básico de login utilizando o zend2 e doctrine",
     "type":"library",
+    "minimum-stability": "dev",
     "require": {
         "zendframework/zendframework":"^2.5",
         "doctrine/doctrine-orm-module":"^0.9.2",
