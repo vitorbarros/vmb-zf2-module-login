@@ -1,6 +1,7 @@
 {
     "name": "vitorbarros/vmb-zf2-module-login",
     "description": "Módulo básico de login utilizando o zend2 e doctrine",
+    "minimum-stability":"dev",
     "version": "1.0.0",
     "type":"library",
     "license": "MIT",
