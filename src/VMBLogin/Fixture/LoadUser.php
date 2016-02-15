@@ -5,7 +5,7 @@ use Doctrine\Common\DataFixtures\AbstractFixture,
     Doctrine\Common\Persistence\ObjectManager,
     Doctrine\Common\DataFixtures\OrderedFixtureInterface;
 
-use Login\Entity\User;
+use VMBLogin\Entity\User;
 
 class LoadUser extends AbstractFixture implements OrderedFixtureInterface
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Login\Entity\Repository;
+namespace VMBLogin\Entity\Repository;
 
 use Doctrine\ORM\EntityRepository;
 

@@ -35,7 +35,7 @@ class Adapter implements AdapterInterface
      */
     public function authenticate()
     {
-        $repository = $this->em->getRepository('Login\Entity\User');
+        $repository = $this->em->getRepository('VMBLogin\Entity\User');
         $this->user = $repository->findOneByUserUsername($this->getUsername());
 
         if($this->user) {
