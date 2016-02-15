@@ -40,6 +40,11 @@ return array(
 ## Command Line
 Access the Doctrine command line as following
 
+##Create table
+```sh
+./vendor/bin/doctrine-module orm:schema-tool:create
+```
+
 ##Import
 ```sh
 ./vendor/bin/doctrine-module data-fixture:import 
