@@ -14,5 +14,5 @@
             "email": "vitormonteirodebarros@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev-master"
 }
