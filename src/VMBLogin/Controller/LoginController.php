@@ -30,7 +30,7 @@ class LoginController extends AbstractActionController
 
                 $auth->setStorage($sessionStorage);
 
-                $authAdapter = $this->getServiceLocator()->get('Login\Auth\Adapter');
+                $authAdapter = $this->getServiceLocator()->get('VMBLogin\Auth\Adapter');
                 $authAdapter->setUsername($data['username'])->setPassword($data['password']);
 
                 $result = $auth->authenticate($authAdapter);

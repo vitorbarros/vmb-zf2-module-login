@@ -7,7 +7,7 @@ Installation of this module uses composer. For composer documentation, please re
 
 `php composer.phar require vitorbarros/vmb-zf2-module-login`
 
-Then add `DoctrineModule`, `DoctrineORMModule`, `DoctrineDataFixtureModule` and `Login` to your `config/application.config.php` and create directory
+Then add `DoctrineModule`, `DoctrineORMModule`, `DoctrineDataFixtureModule` and `VMBLogin` to your `config/application.config.php` and create directory
 `data/DoctrineORMModule/Proxy` and make sure your application has write access to it.
 
 Installation without composer is not officially supported and requires you to manually install all dependencies
