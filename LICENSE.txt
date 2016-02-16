@@ -1,0 +1,1 @@
+Authenticate module for Zend Framwork 2 using Doctrine
