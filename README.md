@@ -1,6 +1,6 @@
 # vmb-zf2-module-login
 
-## Installation
+##  Installation
 
 Installation of this module uses composer. For composer documentation, please refer to
 [getcomposer.org](http://getcomposer.org/).
