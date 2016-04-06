@@ -1,4 +1,4 @@
-# vmb-zf2-module-login
+# ZF2 Login Module
 
 ##  Installation
 
